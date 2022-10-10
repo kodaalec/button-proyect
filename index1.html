@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Button Proyect</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="img/kitten.jpeg" alt="kitten" class="center" />
+      <p class="instructions">
+        This proyect is inside a small container, you can clik to add to the
+        counter or hold down the button to speed up the counter.
+      </p>
+      <h2 id="h22">Select your color <span id="colorOutput"></span></h2>
+      <label>red:</label>
+      <input type="range" id="rangeRed" value="0" min="0" max="255" />
+      <label>green:</label>
+      <input type="range" id="rangeGreen" value="139" min="0" max="255" />
+      <br />
+      <label>blue:</label>
+      <input type="range" id="rangeBlue" value="168" min="0" max="255" />
+      <br />
+      <button class="large red button" onclick="btnpressed()">Button</button>
+      <p>Clicks: <a id="clicks">0</a></p>
+    </div>
+  </body>
+</html>
